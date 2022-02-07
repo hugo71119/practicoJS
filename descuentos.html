@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos de una tienda en linea</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        Black friday
+    </header>
+    <main>
+        <section>
+            <h1 class="titulo">Porcentajes y descuentos</h1>
+            <div class="contenedor-form mas">
+                <form class="formulario" action="">
+                    <div class="label-forms">
+                        <label class="textos" for="">Ingresa el precio</label>
+                    </div>
+                    <!-- <br> -->
+                    <div class="label-forms">
+                        <input type="number" id="Precio">
+                    </div>
+                    <!-- <br> -->
+                    <div class="label-forms">
+                        <label class="textos" for="">Ingrese el porcentaje de descuento</label>
+                    </div>
+                    <!-- <br> -->
+                    <div class="label-forms">
+                        <input type="number" id="Descuento">
+                    </div>
+                    <!-- <br> -->
+                    <button class="boton" type="button" onclick="priceFinal()">Calcular precio final</button>
+
+                    <p id="ResultP"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        Soporte     Ayuda      Nosotros
+    </footer>
+    <script src="descuento.js"></script>
+</body>
+</html>

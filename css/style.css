@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-weight: bold;
+}
+
+header{
+    text-align: center;
+    font-size: 5rem;
+    background-color: rgb(222, 25, 25);
+    margin-bottom: 2rem;
+    color: white;
+}
+main{
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    text-align: center;
+}
+label{
+    font-size: 2rem;
+
+}
+input,
+button{
+    padding: 0.3rem;
+}
+
+
+
+.titulo{
+    text-align: center;
+    margin: 1rem 0;
+}
+section .contenedor-form{
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    text-align: center;
+    margin-top: 1rem;
+    border: .5rem solid rebeccapurple;
+    max-width: 80rem;
+    margin: auto;
+}
+.label-forms{
+    margin: 1rem 0;
+}
+.formulario .textos{
+    margin: 20rem 3rem;
+}
+.formulario{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.nuevoElemento{
+    /* margin-top: 3rem; */
+    font-size: 2rem;
+}
+.mas{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.boton{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(46, 46, 206);
+    padding: 1rem 3rem;
+    color: white;
+    font-size: 1.9rem;
+}
+.boton:hover{
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(222, 25, 25);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
